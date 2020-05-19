@@ -9,6 +9,7 @@ public class JavaProvideLog {
     }
 
     private static void useLoggerWithProperties() {
+        //配置不太方便，需要在JVM启动时传递参数-Djava.util.logging.config.file=<config-file-name>
         System.setProperty("java.util.logging.config.file","/rex/java-priactice/java-base-log/src/main/resources/logging.properties");
         //
         Logger myLogger = Logger.getLogger("myLogger");
