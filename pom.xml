@@ -11,6 +11,8 @@
     <modules>
         <module>java-base-log</module>
         <module>commons-logging</module>
+        <module>log4j-demo</module>
+        <module>logback-demo</module>
     </modules>
 
     <properties>
